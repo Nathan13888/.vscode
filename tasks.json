@@ -13,26 +13,23 @@
       "options": {
         "cwd": "/usr/bin"
       },
-      "problemMatcher": ["$gcc"],
+      "problemMatcher": [
+        "$gcc"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "VSCodeTheme/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - VSCodeTheme",
+      "detail": "npm run build:dark && npm run build:bright"
     }
-    // {
-    //   "type": "shell",
-    //   "label": "C:\\\\MinGW64\\bin\\gcc build active file",
-    //   "command": "C:\\\\MinGW64\\bin\\gcc",
-    //   "args": [
-    //     "-g",
-    //     "${file}",
-    //     "-o",
-    //     "${fileDirname}/${fileBasenameNoExtension}"
-    //   ],
-    //   "options": {
-    //     "cwd": "."
-    //   }
-    // }
   ],
   "version": "2.0.0"
 }
