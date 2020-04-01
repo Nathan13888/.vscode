@@ -9,46 +9,6 @@
   "explorer.confirmDragAndDrop": true,
   "explorer.confirmDelete": true,
   "extensions.autoUpdate": false,
-  // Bracket Pair Colorizer 2
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
-  // Telemetry
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "gitlens.advanced.telemetry.enabled": false,
-  "code-runner.enableAppInsights": false,
-  // Editor
-  "editor.suggestSelection": "recentlyUsedByPrefix",
-  "editor.autoIndent": "advanced",
-  "editor.formatOnPaste": true,
-  "editor.renderWhitespace": "boundary",
-  "editor.formatOnType": false,
-  "editor.formatOnSave": true,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorWidth": 3,
-  "editor.fontSize": 16,
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Consolas, 'Source Code Pro', monospace",
-  "editor.autoClosingBrackets": "never",
-  "editor.autoClosingQuotes": "never",
-  "editor.wordWrap": "bounded",
-  "todo-tree.tree.showScanModeButton": false,
-  "todo-tree.general.statusBar": "total",
-  "git-graph.maxDepthOfRepoSearch": 1,
-  "vsicons.dontShowNewVersionMessage": true,
-  // Settings Sync
-  "sync.askGistName": true,
-  "sync.gist": "67918c044c6390cbe1b2dfefc7e9407b",
-  "sync.quietSync": false,
-  "sync.removeExtensions": true,
-  "sync.syncExtensions": true,
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.forceDownload": false,
-  // Git
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
   "files.associations": {
     "new": "cpp",
     "iostream": "cpp",
@@ -122,11 +82,56 @@
     "typeinfo": "cpp",
     "valarray": "cpp"
   },
+  // Bracket Pair Colorizer 2
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  // Telemetry
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "code-runner.enableAppInsights": false,
+  // Editor
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.autoIndent": "brackets",
+  "editor.formatOnPaste": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 3,
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Consolas, 'Source Code Pro', monospace",
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.autoClosingQuotes": "languageDefined",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.wordWrap": "bounded",
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.general.statusBar": "total",
+  "git-graph.maxDepthOfRepoSearch": 1,
+  "vsicons.dontShowNewVersionMessage": true,
+  // Settings Sync
+  "sync.askGistName": true,
+  "sync.gist": "67918c044c6390cbe1b2dfefc7e9407b",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
   // C++ Settings
   "C_Cpp.loggingLevel": "Information",
   "C_Cpp.commentContinuationPatterns": [
-      "/*",
-      "/**"
+    "/*",
+    "/**"
   ],
   "C_Cpp.experimentalFeatures": "Enabled",
   "C_Cpp.enhancedColorization": "Enabled",
@@ -138,7 +143,7 @@
   "C_Cpp.errorSquiggles": "Enabled",
   "files.exclude": {
     "**/*.exe": true,
-    "node_modules/":true,
+    "node_modules/": true,
     "**/.git": false
   },
   // Code Runner
@@ -155,6 +160,9 @@
   // Java
   "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
   "[jsonc]": {
-    // "editor.defaultFormatter": "remimarsal.prettier-now"
-  }
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[cpp]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
 }
