@@ -92,6 +92,15 @@
   "code-runner.enableAppInsights": false,
   // Editor
   "editor.suggestSelection": "recentlyUsedByPrefix",
+  "C_Cpp.suggestSnippets": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggest.maxVisibleSuggestions": 8,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.showColors": false,
   "editor.autoIndent": "brackets",
   "editor.formatOnPaste": true,
   "editor.renderWhitespace": "boundary",
@@ -127,6 +136,7 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
+  "git.checkoutType": "all",
   // C++ Settings
   "C_Cpp.loggingLevel": "Information",
   "C_Cpp.commentContinuationPatterns": [
