@@ -101,6 +101,8 @@
   "editor.suggest.maxVisibleSuggestions": 8,
   "editor.snippetSuggestions": "top",
   "editor.suggest.showColors": false,
+  "terminal.integrated.confirmOnExit": true,
+  "git.confirmEmptyCommits": true,
   "editor.autoIndent": "brackets",
   "editor.formatOnPaste": true,
   "editor.renderWhitespace": "boundary",
