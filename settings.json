@@ -1,14 +1,114 @@
 {
   // Theme and Icon
-  "workbench.preferredDarkColorTheme": "Dark Night",
-  "workbench.colorTheme": "Dark Night",
-  "workbench.iconTheme": "vscode-icons",
+  // "workbench.preferredDarkColorTheme": "Dark Night",
+  "workbench.colorTheme": "Dark Night Bold",
+  "workbench.iconTheme": "simple-icons",
   // Files
   "workbench.startupEditor": "newUntitledFile",
   "files.autoSave": "onWindowChange",
   "explorer.confirmDragAndDrop": true,
   "explorer.confirmDelete": true,
   "extensions.autoUpdate": false,
+  // Bracket Pair Colorizer 2
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  // Telemetry
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "code-runner.enableAppInsights": false,
+  // Editor
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "C_Cpp.suggestSnippets": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggest.maxVisibleSuggestions": 8,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.showColors": false,
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 300,
+  "editor.colorDecorators": true,
+  "color-highlight.enable": true,
+  "terminal.integrated.confirmOnExit": false,
+  "git.confirmEmptyCommits": true,
+  "editor.autoIndent": "brackets",
+  "editor.formatOnPaste": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 3,
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Consolas, 'Source Code Pro', monospace",
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.autoClosingQuotes": "languageDefined",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.wordWrap": "on",
+  // "editor.wordWrapColumn": 80,
+  "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.general.statusBar": "total",
+  "git-graph.maxDepthOfRepoSearch": 1,
+  "vsicons.dontShowNewVersionMessage": true,
+  // Settings Sync
+  "sync.askGistName": true,
+  "sync.gist": "67918c044c6390cbe1b2dfefc7e9407b",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.checkoutType": "all",
+  // C++ Settings
+  "C_Cpp.loggingLevel": "Information",
+  "C_Cpp.commentContinuationPatterns": [
+    "/*",
+    "/**"
+  ],
+  "C_Cpp.experimentalFeatures": "Enabled",
+  "C_Cpp.enhancedColorization": "Enabled",
+  "C_Cpp.default.intelliSenseMode": "gcc-x64",
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.cppStandard": "c++11",
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "C_Cpp.errorSquiggles": "Enabled",
+  "files.exclude": {
+    "**/*.exe": true,
+    "node_modules/": true,
+    "**/.git": false
+  },
+  // Code Runner
+  "code-runner.defaultLanguage": "cpp",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.showExecutionMessage": true,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "code-runner.customCommand": "",
+  "code-runner.executorMapByFileExtension": {},
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName -std=c++11 -Wshadow -Wall -O2 -Wno-unused-result -o $fileNameWithoutExt && /usr/bin/time -f /usr/bin/time -f \"\\n\\n[Real] %es\\n[User] %Us\\n[Syst] %Ss\\n[Stck] %pKB\\n[Exit] %x\" $dir$fileNameWithoutExt"
+  },
+  // Java
+  "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "files.associations": {
     "new": "cpp",
     "iostream": "cpp",
@@ -82,99 +182,5 @@
     "typeinfo": "cpp",
     "valarray": "cpp"
   },
-  // Bracket Pair Colorizer 2
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
-  // Telemetry
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "gitlens.advanced.telemetry.enabled": false,
-  "code-runner.enableAppInsights": false,
-  // Editor
-  "editor.suggestSelection": "recentlyUsedByPrefix",
-  "C_Cpp.suggestSnippets": true,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": false
-  },
-  "editor.suggest.maxVisibleSuggestions": 8,
-  "editor.snippetSuggestions": "top",
-  "editor.suggest.showColors": false,
-  "terminal.integrated.confirmOnExit": true,
-  "git.confirmEmptyCommits": true,
-  "editor.autoIndent": "brackets",
-  "editor.formatOnPaste": true,
-  "editor.renderWhitespace": "boundary",
-  "editor.formatOnType": false,
-  "editor.formatOnSave": true,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorWidth": 3,
-  "editor.fontSize": 16,
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Consolas, 'Source Code Pro', monospace",
-  "editor.autoClosingBrackets": "languageDefined",
-  "editor.autoClosingQuotes": "languageDefined",
-  "editor.acceptSuggestionOnEnter": "smart",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
-  },
-  "editor.wordWrap": "bounded",
-  "todo-tree.tree.showScanModeButton": false,
-  "todo-tree.general.statusBar": "total",
-  "git-graph.maxDepthOfRepoSearch": 1,
-  "vsicons.dontShowNewVersionMessage": true,
-  // Settings Sync
-  "sync.askGistName": true,
-  "sync.gist": "67918c044c6390cbe1b2dfefc7e9407b",
-  "sync.quietSync": false,
-  "sync.removeExtensions": true,
-  "sync.syncExtensions": true,
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.forceDownload": false,
-  // Git
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "git.checkoutType": "all",
-  // C++ Settings
-  "C_Cpp.loggingLevel": "Information",
-  "C_Cpp.commentContinuationPatterns": [
-    "/*",
-    "/**"
-  ],
-  "C_Cpp.experimentalFeatures": "Enabled",
-  "C_Cpp.enhancedColorization": "Enabled",
-  "C_Cpp.default.intelliSenseMode": "gcc-x64",
-  "C_Cpp.clang_format_sortIncludes": true,
-  "C_Cpp.default.cStandard": "c11",
-  "C_Cpp.default.cppStandard": "c++11",
-  "C_Cpp.intelliSenseEngineFallback": "Enabled",
-  "C_Cpp.errorSquiggles": "Enabled",
-  "files.exclude": {
-    "**/*.exe": true,
-    "node_modules/": true,
-    "**/.git": false
-  },
-  // Code Runner
-  "code-runner.defaultLanguage": "cpp",
-  "code-runner.runInTerminal": true,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "code-runner.showExecutionMessage": true,
-  "code-runner.showRunIconInEditorTitleMenu": false,
-  "code-runner.customCommand": "",
-  "code-runner.executorMapByFileExtension": {},
-  "code-runner.executorMap": {
-    "cpp": "cd $dir && g++ $fileName -std=c++11 -Wshadow -Wall -O2 -Wno-unused-result -o $fileNameWithoutExt && /usr/bin/time -f /usr/bin/time -f \"\\n\\n[Real] %es\\n[User] %Us\\n[Syst] %Ss\\n[Stck] %pKB\\n[Exit] %x\" $dir$fileNameWithoutExt"
-  },
-  // Java
-  "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[cpp]": {
-      "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
+  "java.configuration.updateBuildConfiguration": "automatic",
 }
