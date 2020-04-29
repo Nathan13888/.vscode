@@ -56,6 +56,33 @@
   "todo-tree.general.statusBar": "total",
   "git-graph.maxDepthOfRepoSearch": 1,
   "vsicons.dontShowNewVersionMessage": true,
+  // VIM
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
   // Settings Sync
   "sync.askGistName": true,
   "sync.gist": "67918c044c6390cbe1b2dfefc7e9407b",
