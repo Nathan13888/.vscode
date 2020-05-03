@@ -1,8 +1,8 @@
 {
   // Theme and Icon
-  // "workbench.preferredDarkColorTheme": "Dark Night",
   "workbench.colorTheme": "Dark Night Bold",
   "workbench.iconTheme": "simple-icons",
+  "workbench.editor.enablePreview": false,
   // Files
   "workbench.startupEditor": "newUntitledFile",
   "files.autoSave": "onWindowChange",
