@@ -127,6 +127,8 @@
   "code-runner.executorMap": {
     "cpp": "cd $dir && g++ $fileName -std=c++11 -Wshadow -Wall -O2 -Wno-unused-result -o $fileNameWithoutExt && /usr/bin/time -f /usr/bin/time -f \"\\n\\n[Real] %es\\n[User] %Us\\n[Syst] %Ss\\n[Stck] %pKB\\n[Exit] %x\" $dir$fileNameWithoutExt"
   },
+  // Python
+  "python.insidersChannel": "off",
   // Java
   "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
   "[jsonc]": {
