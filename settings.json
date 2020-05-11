@@ -47,9 +47,10 @@
   "editor.autoClosingQuotes": "languageDefined",
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
+  "eslint.format.enable": true,
   "editor.wordWrap": "on",
   // "editor.wordWrapColumn": 80,
   "todo-tree.tree.showScanModeButton": false,
