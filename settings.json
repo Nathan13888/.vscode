@@ -1,6 +1,6 @@
 {
   // Theme and Icon
-  "workbench.colorTheme": "Dark Night Bold",
+  "workbench.colorTheme": "Dark Night Extra Bold",
   "workbench.iconTheme": "simple-icons",
   "workbench.editor.enablePreview": false,
   // Files
@@ -209,7 +209,9 @@
     "thread": "cpp",
     "typeindex": "cpp",
     "typeinfo": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "any": "cpp",
+    "variant": "cpp"
   },
   "java.configuration.updateBuildConfiguration": "automatic",
 }
