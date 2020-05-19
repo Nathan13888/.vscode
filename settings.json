@@ -44,7 +44,7 @@
   "editor.fontLigatures": true,
   "editor.fontFamily": "Consolas, 'Source Code Pro', monospace",
   "editor.autoClosingBrackets": "languageDefined",
-  "editor.autoClosingQuotes": "languageDefined",
+  "editor.autoClosingQuotes": "never",
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
