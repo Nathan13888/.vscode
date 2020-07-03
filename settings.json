@@ -35,7 +35,7 @@
   "terminal.integrated.confirmOnExit": false,
   "git.confirmEmptyCommits": true,
   "editor.autoIndent": "brackets",
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.renderWhitespace": "boundary",
   "editor.formatOnType": false,
   "editor.cursorBlinking": "solid",
@@ -51,7 +51,8 @@
     "source.organizeImports": true
   },
   "eslint.format.enable": true,
-  "editor.wordWrap": "on",
+  // "editor.wordWrap": "on",
+  "editor.wordWrap": "off",
   // "editor.wordWrapColumn": 80,
   "todo-tree.tree.showScanModeButton": false,
   "todo-tree.general.statusBar": "total",
